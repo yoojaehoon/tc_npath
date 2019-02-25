@@ -1,0 +1,20 @@
+daemon:
+    interval: 30
+    server_url: '13.124.122.2'
+    server_port: 9090
+
+api:
+    meta_url: 'http://169.254.169.254/openstack/latest/meta_data.json'
+    private_router : "192.168.0.1"
+    private_gateway : "133.186.159.71"
+    public_router : "192.168.0.1"
+    public_gateway : "133.186.159.71"
+
+    aws : "23.21.36.5"
+    kt : "211.253.10.187"
+    legacy : "133.186.128.188"
+    wmi_private_legacy : "10.161.211.223"
+
+vm:
+    path: '/opt/tc_npath_client/var/client.dat'
+    #path: '/opt/tc-tools/wmi_server/var/client.dat'
